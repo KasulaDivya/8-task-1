@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(198, 236, 115);
+        }
+        h1{
+            color:black;
+        }
+        img{
+            border-radius: 60px;
+            mix-blend-mode: multiply;
+        }
+        p{
+            margin-top: 40px;
+            transform: rotate(50deg);
+        }
+        #music{
+            width: 300px;
+            height: 200px;
+            position: relative;
+            display: inline-block;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 65%;
+            margin-top: ;
+        }
+        #music #bar{
+            width:9px;
+            border-radius: 10px;
+            background: white;
+            animation: movements 1.5s ease-in-out infinite;
+            display:inline-block;
+        }
+        
+        #music #bar:nth-child(1){
+            background: pink;
+            animation-delay: 1s;
+        }
+        #music #bar:nth-child(2){
+            background: rgb(196, 7, 39);
+            animation-delay: .2s;
+        }
+        #music #bar:nth-child(3){
+            background: rgb(105, 48, 57);
+            animation-delay: 4s;
+        }
+        #music #bar:nth-child(4){
+            background: pink;
+            animation-delay: .6s;
+        }#music #bar:nth-child(5){
+            background: rgb(80, 211, 75);
+            animation-delay: 1s;
+        }#music #bar:nth-child(6){
+            background: rgb(69, 117, 214);
+            animation-delay: .3s;
+        }#music #bar:nth-child(7){
+            background: rgb(173, 60, 79);
+            animation-delay: .4s;
+        }#music #bar:nth-child(8){
+            background: pink;
+            animation-delay: .8s;
+        }#music #bar:nth-child(9){
+            background: rgb(62, 169, 190);
+            animation-delay: .5s;
+        }#music #bar:nth-child(10){
+            background: rgb(155, 73, 87);
+            animation-delay: .2s;
+        }#music #bar:nth-child(11){
+            background: pink;
+            animation-delay: 3s;
+        }
+        #music #bar:nth-child(12){
+            background: rgb(127, 135, 226);
+            animation-delay: 1s;
+        }
+        #music #bar:nth-child(13){
+            background: rgb(181, 8, 37);
+            animation-delay: .5s;
+        }
+        #music #bar:nth-child(14){
+            background: rgb(150, 73, 85);
+            animation-delay: .4s;
+        }
+        @keyframes movements {
+            0% ,100%{
+                height:5px;
+            }
+            50%{
+                height: 100px;
+            }
+            
+        }
+        #d1{
+            margin-left: 65%;
+            color: black;
+            font-size: 30px;
+        }
+        audio{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Music Task</h1>
+    <img src="./music.jpeg"></center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><audio controls>
+        <source src="./hi nana.mpeg">
+    </audio></center>
+    <div id="music">
+        <div id="bar"></div>
+        <div id=bar>
+        </div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+        <div id="bar"></div>
+    
+    </div>
+    <div id="d1">Sounds good..</div>
+</body>
+</html>
